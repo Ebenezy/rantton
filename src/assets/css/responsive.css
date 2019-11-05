@@ -1,0 +1,490 @@
+@media (min-width: 320px) and (max-width: 767px) {
+/*@media (max-width: 48em){*/
+    body{
+        overflow-x: hidden;
+    }
+    .logo {
+        width: 120px;
+    }
+    .feature {
+        display: block;
+    }
+    .bouncing{
+        text-align: center;
+    }
+    ._half-width {
+        width: 100% !important;
+    }
+    .pt-50{
+        padding-top: 10px;
+    }
+    .pt-100{
+        padding-top: 10px;
+    }
+    .mt-50{
+        margin-top: 10px;
+    }
+    .mt-100{
+        margin-top: 10px;
+    }
+    .emoji{
+        margin-bottom: 0;
+    }
+    .emoji li .em{
+        font-size: 14px !important;
+    }
+    .emoji li {
+        list-style-type: none;
+        padding-right: 5px;
+    }
+    .em{
+        font-size: 15px;
+    }
+    .mt{
+        margin-top: 2.4em;
+    }
+    .hidden-lg{
+        display: block;
+    }
+    .box{
+        display: block;
+    }
+    .box1{
+        display: block;
+    }
+    .menu-icon{
+        border: 2px solid #0082DE !important;
+        border-radius: 30px;
+    }
+    .search{
+        width: auto;
+    }
+    .search-bar{
+        display: none;
+    }
+    .fa-search{
+        display: block;
+    }
+    .home-up{
+        padding-top: 4em;
+    }
+    .arrow-down {
+        padding-left: 5px;
+        width: 28px;
+    }
+    .rant-btn {
+        margin-right: 7px;
+        margin-bottom: -2px;
+        font-size: 12px;
+        padding: 0.2em 0.8em;
+    }
+    .box-sm .em{
+        width: 20px;
+    }
+    .rant-emoji-card{
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+
+    .box-sm{
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+    .triangle-left {
+        margin-left: 0.5em;
+        margin-top: 2.7em;
+        width: 0;
+        height: 0;
+        border-top: 5px solid transparent;
+        border-right: 20px solid #fff;
+        border-bottom: 5px solid transparent;
+        margin-right: -2px;
+    }
+    /*.card{*/
+        /*width: 85%;*/
+        /*border: 1px solid #fff !important;*/
+        /*border-radius: 20px !important;*/
+        /*background-color: #fff;*/
+        /*margin-bottom: 1em;*/
+    /*}*/
+    .inline li{
+        padding-right: 5px;
+        font-size: 8px;
+    }
+    .logo-sm{
+        width: 8px;
+    }
+    .card2{
+        border: 1px solid #fff !important;
+        border-radius: 20px !important;
+        background-color: #fff;
+        margin-left: 0px;
+        margin-bottom: 1em;
+    }
+    .card3 {
+        border: 1px solid #fff !important;
+        border-radius: 20px !important;
+        background-color: #fff;
+        margin-bottom: 1em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    .card4{
+        display: none;
+    }
+    .emojiss{
+        width: 2em;
+        height: 2em;
+        margin-right: 15px;
+    }
+    .emojiss img{
+        border-radius: 50%;
+        border: 3px solid white;
+        width: 2em;
+        height: 2em;
+        object-fit: cover;
+    }
+    /*Emoji*/
+    .emojis{
+        width: 2em;
+        height: 2em;
+        margin-right: 20px;
+    }
+
+    .emojis img{
+        border-radius: 50%;
+        border: 4px solid white;
+        width: 2em;
+        object-fit: cover;
+    }
+    .borders{
+        border: 2px solid #fff !important;
+        border-radius: 50%;
+    }
+    .bell{
+        width: 50px;
+    }
+    .modal-content {
+        width: 100% !important;
+    }
+    .fixed{
+        display: none;
+    }
+    .sticky{
+        display: none;
+    }
+    .emoji1{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 16px;
+        padding-top: 4px;
+    }
+    .emoji1 li {
+        list-style-type: none;
+        padding-right: 10px;
+    }
+    .emoji1 li .em{
+        font-size: 15px !important;
+    }
+
+    .emojisss{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 10px;
+        padding-top: 4px;
+    }
+    .emojisss img {
+        width: 1.5em;
+        list-style-type: none;
+        padding-right: 5px;
+    }
+    .arrow-down{
+        padding-left: 5px;
+        width: 70% !important;
+    }
+    .pw-suggests{
+        display: block;
+        padding-left: 0;
+    }
+    .emoji1 img{
+        display: flex;
+        justify-content: center;
+        width: 1.5em;
+        height: 1.5em;
+        margin-right: 2px;
+    }
+
+    .outer {
+        text-align: center;
+        width: 3px;
+        height: 50vh;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+    }
+    .inner {
+        position: absolute;
+        width:100%;
+        height: 80%;
+        background: #0082DE;
+        top: 10%;
+        box-shadow: 0px 0px 30px 20px #0082DE;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        width: 140px;
+    }
+    .rant-btn{
+        font-size: 13px !important;
+    }
+    .emojiss img{
+        width: 2em;
+    }
+    .router-link-active{
+        padding: 0;
+    }
+    .fixed {
+        margin-left: 2.5%;
+    }
+    .trend-left{
+        margin-left: 10%;
+    }
+    .emoji1{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 16px;
+        padding-top: 4px;
+    }
+    .emoji1 li {
+        list-style-type: none;
+        padding-right: 10px;
+    }
+    .emoji1 li .em{
+        font-size: 30px !important;
+    }
+    .mg-0 {
+        margin: 0 !important;
+    }
+    .pd-0{
+        padding: 0 !important;
+    }
+    .col-md-6{
+        padding: 0 !important;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .emojis {
+        height: 2.5em !important;
+        width: 2.5em !important;
+        margin-right: 10px;
+    }
+    .emojis img {
+        border-radius: 50%;
+        border: 4px solid white;
+        width: 2.5em !important;
+        -o-object-fit: cover;
+        object-fit: cover;
+        z-index: 1;
+        position: relative;
+    }
+    .card {
+        /*width: 28em;*/
+        /* height: 147px; */
+        border: 1px solid #fff !important;
+        border-radius: 13.5px !important;
+        background-color: #fff;
+        padding: 0.8em 1.2em;
+        -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.08);
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,0.08);
+    }
+    .inline li {
+        padding-right: 20px;
+        font-size: 11px;
+        font-family: Montserrat-Regular;
+    }
+    .rant-txt {
+        font-family: Montserrat-Regular;
+        font-size: 12px;
+        color: #4A4A4A;
+        letter-spacing: 0;
+        text-align: left;
+    }
+    .card2{
+        width: 100%;
+    }
+    .card3 {
+        width: 100%;
+        /*height: 7em;*/
+        border: 1px solid #fff !important;
+        border-radius: 13.5px !important;
+        background-color: #fff;
+        -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.08);
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,0.08);
+    }
+    .card4{
+        width: 100%;
+    }
+    .card5{
+        width: 100%;
+    }
+    .card-login{
+        position: relative;
+        margin-top: 10%;
+        word-wrap: break-word;
+        width: fit-content;
+    }
+    .card-login h2{
+        font-size: 22px;
+    }
+    .card-login p{
+        font-size: 13px;
+    }
+    .suggest p{
+        font-size: 10px;
+    }
+    .pw-suggests{
+        width: 100%;
+        position: relative;
+        display: block;
+        text-align: center;
+        word-wrap: break-word;
+    }
+    .pw-suggest {
+        font-size: 12px;
+        color: #0082DE;
+        background-color: #fff;
+        border: 1px solid #0082DE;
+        border-radius: 15px;
+        padding: 5px 10px;
+        margin: 3px;
+    }
+    .form-control3 {
+        display: inline !important;
+        width: 90% !important;
+        background-color: #F5F5F5;
+        border: none !important;
+        height: 1.9em;
+        padding: 0.5em;
+        resize: none;
+        color: #000;
+        border-radius: 15px !important;
+        font-size: 15px !important;
+        -webkit-box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.08);
+        box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.08);
+        -webkit-box-sizing: padding-box;
+        box-sizing: padding-box;
+        overflow: hidden;
+    }
+    .login-btn {
+        width: 75px;
+        height: 28px;
+        font-size: 12px;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        background-color: #0082DE;
+        margin: 0;
+        margin-left: 10px;
+    }
+    .trend {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        height: auto;
+        background-color: #0082DE;
+        color: #fff;
+        border: none;
+        border-radius: 13.5px 13.5px 0 0;
+        padding: 6px;
+        padding-left: 20px;
+        margin: -1px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .top-rant-text {
+        text-align: center;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+    .trends2 {
+        font-size: 12px;
+        font-weight: 500;
+        color: #000;
+        text-decoration: none;
+        line-height: 1.5em;
+    }
+    .see-more-btn {
+        font-size: 12px;
+        color: #fff;
+        padding: 0.5em 1.5em;
+        border: none;
+        border-radius: 30px;
+        background-color: #0082DE;
+        text-align: center;
+    }
+    .bell {
+        float: right;
+        width: 3em;
+    }
+    .item-text {
+        font-family: Montserrat-Regular;
+        letter-spacing: 0;
+        text-align: left;
+        font-size: 10px !important;
+        margin-bottom: 5px;
+        color: #4A4A4A;
+    }
+
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+    .fixed {
+        /*width: 12em;*/
+    }
+    .sticky {
+        width: 20%;
+    }
+    .emojis {
+        height: 3em;
+        width: 3em;
+        margin-right: 10px;
+    }
+    .emojis img {
+        border-radius: 50%;
+        border: 4px solid white;
+        width: 3em;
+        -o-object-fit: cover;
+        object-fit: cover;
+        z-index: 1;
+        position: relative;
+    }
+    .rant-emoji-card{
+        width: 100%;
+    }
+    .card3{
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+        /* height: 147px; */
+        border: 1px solid #fff !important;
+        border-radius: 13.5px !important;
+        background-color: #fff;
+        padding: 0.8em 1.2em;
+        -webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,0.08);
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,0.08);
+    }
+}
+
+@media (min-width: 1200px) {
+    .fixed {
+        width: 15em;
+    }
+}
